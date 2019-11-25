@@ -1,0 +1,6 @@
+;fileheader
+; (5.01 :patc (om-make-point 126 54) (om-make-point 97 153) (om-make-point 500 400) "non documentation" 183)
+;endfileheader
+(in-package :om)(load-lib-for '("ma-lib"))(setf *om-current-persistent* (om-load-patch1 "cube" '((om-load-boxcall 'genfun "CUBE" 'mfl::cube '((om-load-inputfun 'input-funbox "a number" "X" 9)) (om-make-point 238 212) nil nil nil nil 1) (om-load-boxcomment "comment1" (om-make-point 126 47) '"x  * x * x" "" (om-make-point 210 96) nil (om-make-color 0 0 0) (om-make-font "Arial" 24 :family nil :style 'nil :mode '(:srcor))) (om-load-boxcall 'bastype "aux" 't 'nil (om-make-point 217 155) (om-make-point 85 37) 10 "10" nil) (om-load-boxcomment "comment" (om-make-point 196 68) '"Cube" "" (om-make-point 195 28) nil (om-make-color 0 0 0) (om-make-font "Arial" 48 :family nil :style 'nil :mode '(:srcor)))) '((2 0 0 0 nil 0)) nil 5.01))
+
+

@@ -1,0 +1,6 @@
+;fileheader
+; (5.01 :patc (om-make-point 110 192) (om-make-point 677 325) (om-make-point 500 400) "non documentation" 183)
+;endfileheader
+(in-package :om)(load-lib-for '("ma-lib"))(setf *om-current-persistent* (om-load-patch1 "my-fact" '((om-load-boxcall 'bastype "aux" 't 'nil (om-make-point 199 154) (om-make-point 23 25) 5 "5" nil) (om-load-boxcomment "comment1" (om-make-point 336 63) '"factorial from a number <n>" "" (om-make-point 77 93) nil (om-make-color 0 0 0) (om-make-font "Arial" 24 :family nil :style 'nil :mode '(:srcor))) (om-load-boxcomment "comment" (om-make-point 175 63) '"my-fact" "" (om-make-point 132 29) nil (om-make-color 0 0 0) (om-make-font "Arial" 48 :family nil :style 'nil :mode '(:srcor))) (om-load-boxcall 'genfun "MY-FACT" 'mfl::my-fact '((om-load-inputfun 'input-funbox "<n>" "N" 5)) (om-make-point 183 192) nil nil nil "my-fact" 1)) '((0 0 3 0 nil 0)) nil 5.01))
+
+

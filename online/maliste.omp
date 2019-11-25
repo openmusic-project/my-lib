@@ -1,0 +1,6 @@
+;fileheader
+; (5.01 :patc (om-make-point 306 206) (om-make-point 277 281) (om-make-point 500 400) "non documentation" 183)
+;endfileheader
+(in-package :om)(load-lib-for '("ma-lib"))(setf *om-current-persistent* (om-load-patch1 "maliste" '((om-load-boxcall 'bastype "aux" 't 'nil (om-make-point 173 152) (om-make-point 141 22) (list 'a 'b 'c 'd 'e) "(a b c d e)" nil) (om-load-boxcomment "comment1" (om-make-point 301 61) '"just copy, go thru a list <l>, in a recursive way" "" (om-make-point 106 73) nil (om-make-color 0 0 0) (om-make-font "Arial" 24 :family nil :style 'nil :mode '(:srcor))) (om-load-boxcomment "comment" (om-make-point 175 63) '"maliste" "" (om-make-point 150 11) nil (om-make-color 0 0 0) (om-make-font "Arial" 48 :family nil :style 'nil :mode '(:srcor))) (om-load-boxcall 'genfun "MALISTE" 'mfl::maliste '((om-load-inputfun 'input-funbox "just a list" "L" (list 'mfl::a 'mfl::b 'mfl::c 'mfl::d))) (om-make-point 205 193) nil nil nil "maliste" 1)) '((0 0 3 0 nil 0)) nil 5.01))
+
+
